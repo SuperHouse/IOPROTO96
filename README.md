@@ -3,12 +3,12 @@ I/O Breakout To Prototyping Area (96 Point)
 Copyright 2017 SuperHouse Pty Ltd  
 SuperHouse site:  www.superhouse.tv  
 
-Breaks out a 2x5 pin header to a 96-point prototyping area.
+Breaks out a 2x6 pin header to a 96-point prototyping area.
 
 Features:
 
  * 8 data lines
- * GND and VCC passed through
+ * GND, VIN, IOREF, and RESET passed through
  * 8x12 grid prototyping area
 
 More information is available at:
