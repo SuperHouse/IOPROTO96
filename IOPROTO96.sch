@@ -1598,7 +1598,7 @@ IOREF: Regulated I/O voltage of host</text>
 <junction x="160.02" y="40.64"/>
 </segment>
 </net>
-<net name="D5" class="0">
+<net name="IO5" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="5"/>
 <wire x1="22.86" y1="88.9" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
@@ -1608,7 +1608,7 @@ IOREF: Regulated I/O voltage of host</text>
 <label x="66.04" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D3" class="0">
+<net name="IO3" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="3"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -1618,7 +1618,7 @@ IOREF: Regulated I/O voltage of host</text>
 <label x="66.04" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D1" class="0">
+<net name="IO1" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
@@ -1628,7 +1628,7 @@ IOREF: Regulated I/O voltage of host</text>
 <label x="66.04" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D7" class="0">
+<net name="IO7" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="7"/>
 <wire x1="30.48" y1="86.36" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
@@ -1638,7 +1638,7 @@ IOREF: Regulated I/O voltage of host</text>
 <label x="66.04" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D8" class="0">
+<net name="IO8" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="8"/>
 <wire x1="45.72" y1="86.36" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
@@ -1648,7 +1648,7 @@ IOREF: Regulated I/O voltage of host</text>
 <label x="66.04" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D6" class="0">
+<net name="IO6" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="6"/>
 <wire x1="45.72" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
@@ -1658,7 +1658,7 @@ IOREF: Regulated I/O voltage of host</text>
 <label x="66.04" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D4" class="0">
+<net name="IO4" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="4"/>
 <wire x1="45.72" y1="91.44" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
@@ -1668,7 +1668,7 @@ IOREF: Regulated I/O voltage of host</text>
 <label x="66.04" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D2" class="0">
+<net name="IO2" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
@@ -1773,34 +1773,9 @@ IOREF: Regulated I/O voltage of host</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="106,1,25.4,58.42,3V3,,,,,"/>
-<approved hash="106,1,25.4,25.4,A4,,,,,"/>
-<approved hash="106,1,25.4,22.86,A5,,,,,"/>
-<approved hash="106,1,226.06,160.02,AREF,,,,,"/>
-<approved hash="106,1,226.06,111.76,D0_RX,,,,,"/>
-<approved hash="106,1,226.06,114.3,D1_TX,,,,,"/>
-<approved hash="106,1,226.06,116.84,D2,,,,,"/>
-<approved hash="106,1,226.06,119.38,D3,,,,,"/>
-<approved hash="106,1,226.06,142.24,D8,,,,,"/>
-<approved hash="106,1,226.06,144.78,D9,,,,,"/>
-<approved hash="106,1,226.06,147.32,D10,,,,,"/>
-<approved hash="106,1,226.06,149.86,D11_MOSI,,,,,"/>
-<approved hash="106,1,226.06,152.4,D12_MISO,,,,,"/>
-<approved hash="106,1,226.06,154.94,D13_SCK,,,,,"/>
-<approved hash="106,1,25.4,63.5,IOREF,,,,,"/>
-<approved hash="106,1,132.08,160.02,MISO,,,,,"/>
-<approved hash="106,1,139.7,157.48,MOSI,,,,,"/>
-<approved hash="106,1,25.4,66.04,RESERVED,,,,,"/>
-<approved hash="106,1,132.08,157.48,SCK,,,,,"/>
-<approved hash="106,1,226.06,165.1,SCL,,,,,"/>
-<approved hash="106,1,226.06,162.56,SDA,,,,,"/>
-<approved hash="115,1,87.0373,162.365,J5,,,,,"/>
-<approved hash="115,1,22.1827,83.6253,JP4,,,,,"/>
-<approved hash="115,1,107.95,93.3873,J8,,,,,"/>
-<approved hash="115,1,67.31,93.3873,J7,,,,,"/>
-<approved hash="115,1,189.23,93.3873,J10,,,,,"/>
-<approved hash="115,1,148.59,93.3873,J9,,,,,"/>
-<approved hash="115,1,135.848,158.881,J6,,,,,"/>
+<approved hash="113,1,152.595,164.423,JP3,,,,,"/>
+<approved hash="113,1,152.595,48.9373,JP4,,,,,"/>
+<approved hash="113,1,39.5647,158.157,JP5,,,,,"/>
 </errors>
 </schematic>
 </drawing>
